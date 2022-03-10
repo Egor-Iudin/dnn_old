@@ -1,0 +1,26 @@
+[INFO]	Mon Mar 23 14:42:10 2015
+bnn-hep started.
+[INFO]	Mon Mar 23 14:42:10 2015
+The configuration file is parsed and checked.
+[INFO]	Mon Mar 23 14:45:46 2015
+Sample "/afs/cern.ch/user/p/pvolkov/public/tuples/t-tchan-mu-ch.root" number of events 193684 train number 48421 ratio 25
+[INFO]	Mon Mar 23 14:45:47 2015
+Sample "/afs/cern.ch/user/p/pvolkov/public/tuples/t-tchan-tau-ch.root" number of events 11266 train number 2817 ratio 25.0044
+[INFO]	Mon Mar 23 14:45:48 2015
+Sample "/afs/cern.ch/user/p/pvolkov/public/tuples_QCD/SingleMu-Run2011A.root" number of events 10540 train number 2635 ratio 25
+[INFO]	Mon Mar 23 14:46:04 2015
+Sample "/afs/cern.ch/user/p/pvolkov/public/tuples_QCD/MuHad-Run2011A.root" number of events 65821 train number 16456 ratio 25.0011
+[INFO]	Mon Mar 23 14:46:04 2015
+Sample "/afs/cern.ch/user/p/pvolkov/public/tuples_QCD/MuHad-Run2011B.root" number of events 935 train number 234 ratio 25.0267
+[INFO]	Mon Mar 23 14:46:04 2015
+The events for training set (70553 in total) are selected and read.
+[INFO]	Mon Mar 23 14:46:04 2015
+The indices of the events tried for training are written in file "qcd2_trainEvents.txt".
+[INFO]	Mon Mar 23 14:46:04 2015
+The transformations of input variables are built and applied.
+[INFO]	Mon Mar 23 14:46:05 2015
+The training set is written in file "qcd2_trainFile_150323_144210_OoY.root".
+[INFO]	Mon Mar 23 14:46:05 2015
+Training started. FBM binary file: "qcd2_150323_144210_OoJ.net".
+[CRITICAL ERROR]	Mon Mar 23 14:46:05 2015
+"net-spec qcd2_150323_144210_OoJ.net 4 40 1 / - 0.05:0.5 0.05:0.5 - x0.05:0.5 - 100" terminated with an error.

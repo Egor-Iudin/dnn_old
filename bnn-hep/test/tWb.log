@@ -1,0 +1,224 @@
+[INFO]	Tue Nov 19 16:43:30 2019
+bnn-hep started.
+[INFO]	Tue Nov 19 16:43:30 2019
+events 2
+[INFO]	Tue Nov 19 16:43:30 2019
+events2 
+[INFO]	Tue Nov 19 16:43:30 2019
+events 25000
+[INFO]	Tue Nov 19 16:43:30 2019
+events1 
+[INFO]	Tue Nov 19 16:43:30 2019
+events1 50  0.5
+[INFO]	Tue Nov 19 16:43:30 2019
+events 2
+[INFO]	Tue Nov 19 16:43:30 2019
+events2 
+[INFO]	Tue Nov 19 16:43:30 2019
+events 25000
+[INFO]	Tue Nov 19 16:43:30 2019
+events1 
+[INFO]	Tue Nov 19 16:43:30 2019
+events1 50  0.5
+[INFO]	Tue Nov 19 16:43:30 2019
+The configuration file is parsed and checked.
+[INFO]	Tue Nov 19 16:43:30 2019
+/scratch/pvolkov/tWb/samples_new/13tev__tWb_DR1__GG_NneEeuUdDbB.root
+[INFO]	Tue Nov 19 16:43:30 2019
+nEntries=92031
+[INFO]	Tue Nov 19 16:43:30 2019
+No TrainningFileName92031
+[INFO]	Tue Nov 19 16:43:30 2019
+No TrainningFileName maxFraction  0.5
+[INFO]	Tue Nov 19 16:43:30 2019
+No TrainningFileName  sample.maxTrainEvents 25000
+[INFO]	Tue Nov 19 16:44:39 2019
+Break!!!!!!!!!! 25000
+[INFO]	Tue Nov 19 16:44:39 2019
+No TrainningFileName333  25000
+[INFO]	Tue Nov 19 16:44:39 2019
+Sample "/scratch/pvolkov/tWb/samples_new/13tev__tWb_DR1__GG_NneEeuUdDbB.root" number of events 92031 train number 25000 ratio 27.1648
+[INFO]	Tue Nov 19 16:44:39 2019
+/scratch/pvolkov/tWb/samples_new/13tev__tT__SM_NneEej4j4Bb.root
+[INFO]	Tue Nov 19 16:44:39 2019
+nEntries=2865987
+[INFO]	Tue Nov 19 16:44:39 2019
+No TrainningFileName2865987
+[INFO]	Tue Nov 19 16:44:40 2019
+No TrainningFileName maxFraction  0.5
+[INFO]	Tue Nov 19 16:44:40 2019
+No TrainningFileName  sample.maxTrainEvents 25000
+[INFO]	Tue Nov 19 16:47:16 2019
+Break!!!!!!!!!! 25000
+[INFO]	Tue Nov 19 16:47:16 2019
+No TrainningFileName333  25000
+[INFO]	Tue Nov 19 16:47:16 2019
+Sample "/scratch/pvolkov/tWb/samples_new/13tev__tT__SM_NneEej4j4Bb.root" number of events 2865987 train number 25000 ratio 0.8723
+[INFO]	Tue Nov 19 16:47:16 2019
+The indices of the events tried for training are written in file "BNN_tWb_8_trainEvents.txt".
+[INFO]	Tue Nov 19 16:47:16 2019
+The events for training set (50000 in total) are selected and read.
+[INFO]	Tue Nov 19 16:47:16 2019
+The transformations of input variables are built and applied.
+[INFO]	Tue Nov 19 16:47:16 2019
+FileName =BNN_tWb_8_trainFile_191219_164330_BCA.root
+[INFO]	Tue Nov 19 16:47:16 2019
+The training set is written in file "BNN_tWb_8_trainFile_191219_164330_BCA.root".
+[INFO]	Tue Nov 19 16:47:21 2019
+nEntries=BNN_tWb_8_ExamEvents.txt
+[INFO]	Tue Nov 19 16:47:21 2019
+nEntries=BNN_tWb_8_ExamEvents.txt
+[INFO]	Tue Nov 19 16:47:21 2019
+/scratch/pvolkov/tWb/samples_new/13tev__tWb_DR1__GG_NneEeuUdDbB.root
+[INFO]	Tue Nov 19 16:47:21 2019
+nEntries=92031
+[INFO]	Tue Nov 19 16:47:21 2019
+BNN_tWb_8_ExamEvents.txt
+[INFO]	Tue Nov 19 16:48:27 2019
+/scratch/pvolkov/tWb/samples_new/13tev__tT__SM_NneEej4j4Bb.root
+[INFO]	Tue Nov 19 16:48:27 2019
+nEntries=2865987
+[INFO]	Tue Nov 19 16:48:27 2019
+BNN_tWb_8_ExamEvents.txt
+[INFO]	Tue Nov 19 16:50:54 2019
+The events for training set (50000 in total) are selected and read.
+[INFO]	Tue Nov 19 16:50:55 2019
+The transformations of input variables are built and applied.
+[INFO]	Tue Nov 19 16:50:55 2019
+FileName =BNN_tWb_8_examFile_191219_164721_CXJ.root
+[INFO]	Tue Nov 19 16:50:55 2019
+The training set is written in file "BNN_tWb_8_trainFile_191219_164721_HDQ.root".
+[INFO]	Tue Nov 19 16:50:55 2019
+The training set is written in file "BNN_tWb_8_trainFile_191219_164330_BCA.root".
+[INFO]	Tue Nov 19 16:50:55 2019
+Training started. FBM binary file: "BNN_tWb_8_191219_164330_LBM.net".
+[INFO]	Tue Nov 19 16:50:55 2019
+BNN_tWb_8_191219_164330_LBM
+[INFO]	Tue Nov 19 16:50:55 2019
+BNN_tWb_8_191219_164330_LBM_1.net
+[INFO]	Tue Nov 19 16:50:55 2019
+net-spec BNN_tWb_8_191219_164330_LBM_1.net 6 14 1 / - 0.1:0.3 0.1:0.3 - x0.1:0.3 - 100
+[INFO]	Tue Nov 19 16:50:55 2019
+rand-seed BNN_tWb_8_191219_164330_LBM_1.net 31997
+[INFO]	Tue Nov 19 16:50:55 2019
+model-spec BNN_tWb_8_191219_164330_LBM_1.net binary
+[INFO]	Tue Nov 19 16:50:55 2019
+data-spec BNN_tWb_8_191219_164330_LBM_1.net 6 1 2 / BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,1 weights=BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,2 rescale_weights=0  BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,1 &> /dev/null
+[INFO]	Tue Nov 19 16:50:55 2019
+2
+[INFO]	Tue Nov 19 16:50:55 2019
+2.2
+[INFO]	Tue Nov 19 16:50:55 2019
+net-gen BNN_tWb_8_191219_164330_LBM_1.net fix 1.0
+[INFO]	Tue Nov 19 16:50:55 2019
+BNN_tWb_8_191219_164330_LBM_2.net
+[INFO]	Tue Nov 19 16:50:55 2019
+net-spec BNN_tWb_8_191219_164330_LBM_2.net 6 14 1 / - 0.1:0.3 0.1:0.3 - x0.1:0.3 - 100
+[INFO]	Tue Nov 19 16:50:55 2019
+rand-seed BNN_tWb_8_191219_164330_LBM_2.net 9910
+[INFO]	Tue Nov 19 16:50:55 2019
+model-spec BNN_tWb_8_191219_164330_LBM_2.net binary
+[INFO]	Tue Nov 19 16:50:55 2019
+data-spec BNN_tWb_8_191219_164330_LBM_2.net 6 1 2 / BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,1 weights=BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,2 rescale_weights=0  BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,1 &> /dev/null
+[INFO]	Tue Nov 19 16:50:56 2019
+2
+[INFO]	Tue Nov 19 16:50:56 2019
+2.2
+[INFO]	Tue Nov 19 16:50:56 2019
+net-gen BNN_tWb_8_191219_164330_LBM_2.net fix 1.0
+[INFO]	Tue Nov 19 16:50:56 2019
+BNN_tWb_8_191219_164330_LBM_3.net
+[INFO]	Tue Nov 19 16:50:56 2019
+net-spec BNN_tWb_8_191219_164330_LBM_3.net 6 14 1 / - 0.1:0.3 0.1:0.3 - x0.1:0.3 - 100
+[INFO]	Tue Nov 19 16:50:56 2019
+rand-seed BNN_tWb_8_191219_164330_LBM_3.net 28525
+[INFO]	Tue Nov 19 16:50:56 2019
+model-spec BNN_tWb_8_191219_164330_LBM_3.net binary
+[INFO]	Tue Nov 19 16:50:56 2019
+data-spec BNN_tWb_8_191219_164330_LBM_3.net 6 1 2 / BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,1 weights=BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,2 rescale_weights=0  BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,1 &> /dev/null
+[INFO]	Tue Nov 19 16:50:56 2019
+8
+[INFO]	Tue Nov 19 16:50:56 2019
+8.2
+[INFO]	Tue Nov 19 16:50:56 2019
+net-gen BNN_tWb_8_191219_164330_LBM_3.net fix 1.0
+[INFO]	Tue Nov 19 16:50:56 2019
+BNN_tWb_8_191219_164330_LBM_4.net
+[INFO]	Tue Nov 19 16:50:56 2019
+net-spec BNN_tWb_8_191219_164330_LBM_4.net 6 14 1 / - 0.1:0.3 0.1:0.3 - x0.1:0.3 - 100
+[INFO]	Tue Nov 19 16:50:56 2019
+rand-seed BNN_tWb_8_191219_164330_LBM_4.net 13258
+[INFO]	Tue Nov 19 16:50:56 2019
+model-spec BNN_tWb_8_191219_164330_LBM_4.net binary
+[INFO]	Tue Nov 19 16:50:56 2019
+data-spec BNN_tWb_8_191219_164330_LBM_4.net 6 1 2 / BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,1 weights=BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,2 rescale_weights=0  BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,1 &> /dev/null
+[INFO]	Tue Nov 19 16:50:56 2019
+9
+[INFO]	Tue Nov 19 16:50:56 2019
+9.2
+[INFO]	Tue Nov 19 16:50:56 2019
+net-gen BNN_tWb_8_191219_164330_LBM_4.net fix 1.0
+[INFO]	Tue Nov 19 16:50:57 2019
+BNN_tWb_8_191219_164330_LBM_5.net
+[INFO]	Tue Nov 19 16:50:57 2019
+net-spec BNN_tWb_8_191219_164330_LBM_5.net 6 14 1 / - 0.1:0.3 0.1:0.3 - x0.1:0.3 - 100
+[INFO]	Tue Nov 19 16:50:57 2019
+rand-seed BNN_tWb_8_191219_164330_LBM_5.net 1411
+[INFO]	Tue Nov 19 16:50:57 2019
+model-spec BNN_tWb_8_191219_164330_LBM_5.net binary
+[INFO]	Tue Nov 19 16:50:57 2019
+data-spec BNN_tWb_8_191219_164330_LBM_5.net 6 1 2 / BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,1 weights=BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,2 rescale_weights=0  BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,1 &> /dev/null
+[INFO]	Tue Nov 19 16:50:57 2019
+7
+[INFO]	Tue Nov 19 16:50:57 2019
+7.2
+[INFO]	Tue Nov 19 16:50:57 2019
+net-gen BNN_tWb_8_191219_164330_LBM_5.net fix 1.0
+[INFO]	Tue Nov 19 16:50:57 2019
+BNN_tWb_8_191219_164330_LBM_6.net
+[INFO]	Tue Nov 19 16:50:57 2019
+net-spec BNN_tWb_8_191219_164330_LBM_6.net 6 14 1 / - 0.1:0.3 0.1:0.3 - x0.1:0.3 - 100
+[INFO]	Tue Nov 19 16:50:57 2019
+rand-seed BNN_tWb_8_191219_164330_LBM_6.net 20385
+[INFO]	Tue Nov 19 16:50:57 2019
+model-spec BNN_tWb_8_191219_164330_LBM_6.net binary
+[INFO]	Tue Nov 19 16:50:57 2019
+data-spec BNN_tWb_8_191219_164330_LBM_6.net 6 1 2 / BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,1 weights=BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,2 rescale_weights=0  BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,1 &> /dev/null
+[INFO]	Tue Nov 19 16:50:57 2019
+3
+[INFO]	Tue Nov 19 16:50:57 2019
+3.2
+[INFO]	Tue Nov 19 16:50:57 2019
+net-gen BNN_tWb_8_191219_164330_LBM_6.net fix 1.0
+[INFO]	Tue Nov 19 16:50:57 2019
+BNN_tWb_8_191219_164330_LBM_7.net
+[INFO]	Tue Nov 19 16:50:57 2019
+net-spec BNN_tWb_8_191219_164330_LBM_7.net 6 14 1 / - 0.1:0.3 0.1:0.3 - x0.1:0.3 - 100
+[INFO]	Tue Nov 19 16:50:58 2019
+rand-seed BNN_tWb_8_191219_164330_LBM_7.net 9418
+[INFO]	Tue Nov 19 16:50:58 2019
+model-spec BNN_tWb_8_191219_164330_LBM_7.net binary
+[INFO]	Tue Nov 19 16:50:58 2019
+data-spec BNN_tWb_8_191219_164330_LBM_7.net 6 1 2 / BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,1 weights=BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,2 rescale_weights=0  BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,1 &> /dev/null
+[INFO]	Tue Nov 19 16:50:58 2019
+6
+[INFO]	Tue Nov 19 16:50:58 2019
+6.2
+[INFO]	Tue Nov 19 16:50:58 2019
+net-gen BNN_tWb_8_191219_164330_LBM_7.net fix 1.0
+[INFO]	Tue Nov 19 16:50:58 2019
+BNN_tWb_8_191219_164330_LBM_8.net
+[INFO]	Tue Nov 19 16:50:58 2019
+net-spec BNN_tWb_8_191219_164330_LBM_8.net 6 14 1 / - 0.1:0.3 0.1:0.3 - x0.1:0.3 - 100
+[INFO]	Tue Nov 19 16:50:58 2019
+rand-seed BNN_tWb_8_191219_164330_LBM_8.net 8795
+[INFO]	Tue Nov 19 16:50:58 2019
+model-spec BNN_tWb_8_191219_164330_LBM_8.net binary
+[INFO]	Tue Nov 19 16:50:58 2019
+data-spec BNN_tWb_8_191219_164330_LBM_8.net 6 1 2 / BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,1 weights=BNN_tWb_8_trainFile_191219_164330_BCA.root:/Vars,2 rescale_weights=0  BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,4,5,6,7,8,9 BNN_tWb_8_examFile_191219_164721_CXJ.root:/Vars,1 &> /dev/null
+[INFO]	Tue Nov 19 16:50:58 2019
+1
+[INFO]	Tue Nov 19 16:50:58 2019
+1.2
+[INFO]	Tue Nov 19 16:50:58 2019
+net-gen BNN_tWb_8_191219_164330_LBM_8.net fix 1.0

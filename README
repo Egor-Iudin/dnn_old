@@ -1,0 +1,47 @@
+How  to Use bnn-hep
+
+example: 
+/afs/cern.ch/work/p/pvolkov/public/bnn_sm
+
+linking: 
+source newmodROOT.sh
+./make-all
+
+
+set enviroment: 
+source env.sh 
+ 
+trianing: 
+bnn-hep config.cfg 
+
+traning will finished when in work directory  appear hpp file.
+
+example trainning: 
+bnn_sm.cfg - example config file 
+bnn-hep bnn_sm.cfg 
+
+config file: 
+input outputs
+input samples
+     {
+            file-name = "/afs/cern.ch/work/g/gvorotni/public/samples/8TeV/15-09-17-pt/tuples/WeightOnly/tbar-tchan-pw_53X.02.01_VcT.root";
+            number-events = ["15000", "50%"];
+#            event-list-file = "bnn_sm7_examEvents.txt";
+       }
+if exist event-list-file - numbers of events are taking on file 
+fix = 1.0 - random start parametrs or fix = 0.5 fixed start parametrs 
+burn in - count on ansemble (must >1)
+repeat - count iterations on train one network
+20:20 - count computing on one iteration 
+task-name name on hpp file
+
+After tranning: 
+task-name*.root -errors,energy, ROC_curve on one network (long* on iterarions, all* - all cumputings, other - computing in one iteration)
+EnergyDistr.root - distribution energy,errors on end tranning  
+ensemble*.root - ensemble  energy, errors, ROC_curve
+
+cartoons:
+ensemble*.png - ensemble  energy, errors, ROC_curve
+in dirs *png   *networkname.png -errors,energy, ROC_curve on one network (long* on iterarions, all* - all cumputings, other - computing in one iteration)
+
+

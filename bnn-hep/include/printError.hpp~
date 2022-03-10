@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h> 
+
+
+public class PrintError 
+{
+	public: 
+         int a;
+	 PrintError(int argc,char **argv);
+
+};
